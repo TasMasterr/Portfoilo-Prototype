@@ -1,0 +1,115 @@
+/* --------- Colors ----------- */
+/* #01161E - Blue Almost Black */
+/* #124559 - Ocean Blue */
+/* #598392 - Teal Blue */
+/* #AEC3B0 - Cambridge Blue */
+/* #EFF6E0 - Beige */
+
+
+/* --------- Global ----------- */
+body {
+    background: #EFF6E0;
+    margin: 0;
+}
+h1 {
+    font-size: 72pt;
+    font-family: Verdana;
+    text-align: center;
+}
+h2 {
+    font-size: 28pt;
+    font-family: Verdana;
+}
+h3 {
+    font-size: 18pt;
+    font-family: Verdana;
+}
+p {
+    font-size: 14pt;
+    font-family: Verdana;
+}
+.content-wrap{
+    width: 900px;
+    margin: 0 auto;
+    padding: 200px 0;
+}
+
+
+/* ------ Navigation Bar ------ */
+nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: #01161E;
+    height: auto;
+ }
+.left-links{
+    flex: auto;
+    padding: 20px;
+}
+.right-links{
+    padding: 20px;
+}
+.links {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+/* --------- Profile ---------- */
+header {
+    background: #124559;
+    color: #EFF6E0;
+}
+.portrait{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+.bio{
+    text-align: justify;
+    font-size: 20px;
+}
+
+/* --------- Projects --------- */
+.projects {
+    background :#124559;
+    color: #EFF6E0;
+}
+.image {
+    width: 800px;    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 25px;
+    row-gap: 25px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+}
+.project{
+    width: 400px;
+}
+
+
+/* ---------- Contact --------- */
+footer {
+    background: #01161E;
+    color: #EFF6E0;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #EFF6E0;
+    font-family: Verdana;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+}
